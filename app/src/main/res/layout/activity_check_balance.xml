@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context="com.fingercash.app.fingercash.CheckBalance">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="FingerCash"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="68dp"
+        android:layout_above="@+id/textView14"
+        android:layout_toEndOf="@+id/Im8" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Better Security! More Efficiency!"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="118dp"
+        android:layout_below="@+id/Im8"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/Im8"
+        android:layout_width="77dp"
+        android:layout_height="74dp"
+        android:src="@drawable/fp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. "
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="303dp"
+        android:layout_marginTop="9dp"
+        android:layout_alignTop="@+id/Im9"
+        android:layout_toEndOf="@+id/Im9" />
+
+    <ImageView
+        android:id="@+id/Im9"
+        android:layout_width="52dp"
+        android:layout_height="43dp"
+        android:src="@drawable/money"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="294dp"
+        android:layout_marginTop="112dp"
+        android:layout_below="@+id/textView14"
+        android:layout_alignStart="@+id/Im8"
+        android:layout_toStartOf="@+id/textView13" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="29dp"
+        android:layout_toEndOf="@+id/Im9"
+        android:background="#ffff"
+        android:onClick="buttonOnClick"
+        android:text="Back"
+        android:textColor="#ff0033"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/textView16"
+        android:text="35000"
+        android:textColor="#ffff"
+        android:textSize="20dp" />
+
+</android.widget.RelativeLayout>

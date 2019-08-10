@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context="com.fingercash.app.fingercash.Profile">
+
+    <TextView
+        android:id="@+id/tvprofile"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="FingerCash"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="68dp"
+        android:layout_marginTop="81dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/Impr" />
+
+    <TextView
+        android:id="@+id/tvprofile2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Better Security! More Efficiency!"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="118dp"
+        android:layout_below="@+id/tvprofile"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/Impr"
+        android:layout_width="77dp"
+        android:layout_height="74dp"
+        android:src="@drawable/fp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="44dp"
+        android:layout_above="@+id/tvprofile2"
+        android:layout_alignStart="@+id/tvprofile2"
+        android:layout_marginStart="14dp" />
+
+    <Button
+        android:id="@+id/buttonp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:background="#ffff"
+        android:onClick="buttonOnClick"
+        android:text="Back"
+        android:textColor="#ff0033"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textColor="#ffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvprofile2"
+        android:text="Hello,"
+        android:textSize="20dp"
+        android:textColor="#ffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp" />
+
+</android.widget.RelativeLayout>
+
