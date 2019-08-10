@@ -1,1 +1,2 @@
-# FingerCash
+# FingerCash 
+FingerCash Android Application
